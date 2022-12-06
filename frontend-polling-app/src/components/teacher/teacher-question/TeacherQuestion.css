@@ -1,0 +1,32 @@
+.teacher-ques .input-container {
+    margin-top: 20px;
+}
+
+.teacher-ques {
+    width: 100%;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+
+label {
+    font-size: 1.2rem;
+}
+
+.teacher-ques .btn-box {
+    justify-content: flex-start;
+}
+
+.teacher-ques label {
+    display: block;
+    margin-top: 20px;
+}
+
+.teacher-ques .btn-box {
+    justify-content: space-between;
+    width: 100%;
+}

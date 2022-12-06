@@ -1,0 +1,13 @@
+.input-container {
+    margin-top: 60px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0px;
+}
+
+.btn-welcome {
+    width: 40%;
+}

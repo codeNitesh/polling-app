@@ -1,0 +1,9 @@
+.result-block .btn-box {
+    justify-content: space-between;
+}
+
+.result-block p {
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: white;
+}
