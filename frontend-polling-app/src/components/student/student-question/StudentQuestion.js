@@ -31,7 +31,6 @@ export default function StudentQuestion({
 
   return (
     <div className="question-block">
-      {JSON.stringify(currentQuestion)}
       <h2>Question...</h2>
       {currentQuestion ? (
         <>
