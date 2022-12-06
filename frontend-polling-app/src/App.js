@@ -6,7 +6,7 @@ import StudentFlow from "./screens/StudentFlow";
 
 import io from "socket.io-client";
 
-const socket = io.connect("http://localhost:8000");
+const socket = io.connect("https://backend-polling.onrender.com/");
 
 export default function App() {
   const [isTeacher, setIsTeacher] = useState(false);
