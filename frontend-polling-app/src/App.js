@@ -56,6 +56,27 @@ export default function App() {
   };
 
   return (
+    <>
+    <div className="navbar">
+      <p className="logo">POLLING APP</p>
+      <div className="navbar-items">
+        <div className="navbar-item">
+          <a href="https://github.com/codenitesh/polling-app" target="_blank">
+            <span>GitHub</span>
+          </a>
+          </div>
+        <div className="navbar-item">
+          <a href="https://www.linkedin.com/in/codenitesh/" target="_blank">
+            <span>LinkedIn</span>
+          </a>
+          </div>
+        <div className="navbar-item">
+          <a href="https://niteshsoni.in/" target="_blank">
+            <span>Portfolio</span>
+          </a>
+          </div>
+      </div>
+    </div>
     <div className="container">
       {currentState === -1 ? (
         <Home
@@ -89,5 +110,7 @@ export default function App() {
         />
       ) : null}
     </div>
+    </>
+    
   );
 }
